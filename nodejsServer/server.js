@@ -46,5 +46,5 @@ http.createServer(function(req, res) {
         });
         res.write('500 Internal Error\n');
     }
-}).listen(1337, '127.0.0.1');
-console.log('Server running in localhost:1337');
+}).listen(3000, '127.0.0.1');
+console.log('Server running in localhost:3000');
